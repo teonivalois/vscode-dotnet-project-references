@@ -60,7 +60,7 @@ export function activate(context: vscode.ExtensionContext) {
 		var projectFile = await vscode.window.showQuickPick(projectFilePaths);
 		if (!projectFile) { return; }
 
-		var parameters = ['project', uri.path.replace(workspaceFolder!.uri.path, '.'), 'add', 'reference', projectFile];
+		var parameters = ['add', uri.path.replace(workspaceFolder!.uri.path, '.'), 'reference', projectFile];
 		await runDotNetCommand(workspaceFolder!, parameters);
 	});
 
