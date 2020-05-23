@@ -1,7 +1,7 @@
 {
 	"name": "dotnet-project-references",
 	"displayName": "DotNet Project References",
-	"description": "Add and remove project references on dotnet core projects and solutions.",
+	"description": "Manage project references on dotnet core projects and solutions.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.45.0"
