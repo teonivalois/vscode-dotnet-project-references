@@ -3,6 +3,7 @@
 	"displayName": "DotNet Project References",
 	"description": "Manage project references on dotnet core projects and solutions.",
 	"publisher": "teonivalois",
+	"homepage": "https://github.com/teonivalois/vscode-dotnet-project-references/blob/master/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/teonivalois/vscode-dotnet-project-references.git"
