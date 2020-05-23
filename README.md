@@ -20,6 +20,10 @@ This extension expects you to have dotnet core installed and to have the *dotnet
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.2
+
+- Fixed dotnet add command that preventing add cross project reference
+
 ### 0.0.1
 
 Our very first release includes:
